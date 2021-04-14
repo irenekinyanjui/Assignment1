@@ -1,0 +1,24 @@
+#Enter Full Names
+fname = input("Enter fname:") #First Name
+lname = input("Enter lname:")  #last Name
+fullnames = input("enter fullnames")
+print ("fullnames" +":"+  fullnames)
+#Enter phone, email
+print("Enter Customer\'s Phone Number:")
+phone = input("phone")
+email=input("Enter Customer's email:")
+
+#price of a used car
+#price of a used car
+price = 10000
+has_good_credit = True;
+if not has_good_credit:
+    down_payment = 0.2 * price
+else:
+ down_payment = 0.1 * price
+#print(f"Down Payment: {down_payment}")
+print("")
+print("FullNames" ":" +fullnames)
+print("Phone: " +phone)
+print("Email: " + email)
+print("Down Payment:" ""  +str(down_payment))
